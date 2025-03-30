@@ -89,6 +89,41 @@
     <p>External scripts are practical when the same code is used in many different web pages.</p>
     <p>JavaScript files have the file extention <b>.js</b></p>
     <p>To use an external script, put the name of the script file in the <mark>src</mark> (source) attribute of a <mark>&lt;script&gt;</mark> tag:</p>
+    <p><a href="/js/ex/ex10.html">Example - 10</a></p>
+    <br>
+    <p>You can place an external script in <mark>&lt;head&gt;</mark> or <mark>&lt;body&gt;</mark> as you like.</p>
+    <p>The script will behave as if it was located exactly where the <mark>&lt;script&gt;</mark> tag is located</p>
 
+    <mark><b>NOTE:</b></mark>
+    <p>External scripts cannot contain &lt;script&gt; tags.</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>External JavaScript Advantages</h2>
+    <p>Placing scripts in external files has some advantages:</p>
+        <ul>
+            <li>It separates HTML and code</li>
+            <li>It makes HTML and JavaScript easier to read and maintain</li>
+            <li>Cached JavaScript files can speed up page loads</li>
+        </ul>
+    <p>To add several script files to one page - use several script tags:</p>
+        <br>
+    <img src="/js/images/external_js.png" alt="" style="width:100%; max-width: 657px;">
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>External References</h2>
+    <p>An external script can be referenced in 3 different ways:</p>
+        <ul>
+            <li>With a full URL (a full web address)</li>
+            <li>With a file path (like /js/)</li>
+            <li>Without any path</li>
+        </ul>
+    <p>This example uses a <b>full URL</b> to link to myScript.js:</p>
+    <p><a href="https://venusrihaan.github.io/js/ex/myScript.js">Example - 11</a></p>
 </body>
 </html>
