@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <h1>JavaScript Output</h1>
+    <hr>
+
+    <h2>JavaScript Display Possibilities</h2>
+    <p>JavaScript can "display" data in different ways:</p>
+
+    <ul>
+        <li>Writing into an HTML element, using <mark>innerHTML</mark> or <mark>innerText</mark>.</li>
+        <li>Writing into the HTML output using <mark>document.write()</mark>.</li>
+        <li>Writing into an alert box, using <mark>window.alert()</mark>.</li>
+        <li>Writing into the browser console, using <mark>console.log()</mark>.</li>
+    </ul>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Using innerHTML</h2>
+    <p>To access an HTML element, you can use the <mark>document.getElementById(id)</mark> method.</p>
+    <p>Use the <mark>&nbsp;id&nbsp;</mark> attribute to identify the HTML element.</p>
+    <p>Then use the <mark>innerHTML</mark> property to change the HTML content of the HTML element:</p>
+
+    <p><a href="/js/ex/ex14.html">Example 14</a></p>
+
+    <br>
+    <p><b><mark>NOTE:</mark></b></p>
+    <p>Changing the <mark>innerHTML</mark> property of an HTML element is the most common way to display data in HTML.</p>
+    <hr>
+
+    <br>
+    <br>
+    <h2>Using innerText</h2>
+    <p>To access an HTML element, use the <mark>document.getElementById(id)</mark> method.</p>
+    <p>Then use the <mark>innerText</mark> property to change the inner text of the HTML element:</p>
+    <p><a href="/js/ex/ex15.html">Example 15</a></p>
+
+    <br>
+    <p><b><mark> NOTE: </mark></b></p>
+    <p>Use innerHTML when you want to change an HTML element.</p>
+    <p>Use innerText when you only want to change the plain text.</p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>Using document.write()</h2>
+    <p>For testing purposes, it is convenient to use <mark>document.write()</mark>:</p>
+    <p><a href="/js/ex/ex16.html">Example 16</a></p>
+    
+    <br>
+    
+    <p><mark>Using document.write() after an HTML document is loaded, will delete all existing HTML:</mark></p>
+    <p><a href="/js/ex/ex17.html">Example 17</a></p>
+    
+    <mark>The document.write() method should only be used for testing.</mark>
+    <hr>
+
+    <br>
+    <br>
+    <h2>Using window.alert()</h2>
+    <p>You can use an alert box to display data:</p>
+    <p><a href="/js/ex/ex18.html">Example 18</a></p>
+    <br>
+    <p>You can skip the <mark>window</mark> keyword.</p>
+    <p>In JavaScript, the window object is the global scope object. This means that variables, properties, and methods by default belong to the window object. This also means that specitying the <mark>window</mark> keyword is optional:</p>
+    
+    <p><a href="/js/ex/ex19.html">Example 19</a></p>
+
+    <br>
+    <hr>
+    <br>
+    <h2>Using Console.log()</h2>
+    <p>For debugging purposes, you can call the <mark>console.log()</mark> method in the browser to display data.</p>
+    <p><b><mark>NOTE:</mark></b> You will learn more about debugging in a later chapter.</p>
+
+    <p><a href="/js/ex/ex20.html">Example 20</a></p>
+
+    <br>
+    <hr>
+    <br>
+
+    <h2>JavaScript Print</h2>
+    <p>JavaScript does not have any print object or print methods.</p>
+    <p>You cannot access output devices from JavaScript.</p>
+    <p>The only exception is that you can call the <mark>window.print()</mark> method in the browser to print the content of the current window.</p>
+    <p><a href="/js/ex/ex21.html">Example 21</a></p>
+
+</body>
+</html>
